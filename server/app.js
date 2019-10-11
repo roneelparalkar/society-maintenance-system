@@ -14,7 +14,7 @@ app.use(helmet());
 
 app.use(express.static('../client/'));
 
-app.use('/maintenance', maintenanceModule);
+app.use('/api/maintenance', maintenanceModule);
 // app.use('/parking', parking);
 // app.use('/rent', rent);
 
